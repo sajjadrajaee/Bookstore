@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Magiciant Calculator
+# Project Name: Bookstore
 
-> Description the project: This project is for math lovers, with this we can calculate numbers. ;)
+> Description the project: This project is for bookstores. ;)
 
 
 ## Built With
@@ -25,7 +25,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- clone the project from GitHub: [@sajjadrajaee](https://github.com/sajjadrajaee/MagiciantCalculator)
+- clone the project from GitHub: [@sajjadrajaee](https://github.com/sajjadrajaee/Bookstore)
 - run the code on a text editor
 
 ### Prerequisites
@@ -34,8 +34,8 @@ no neaded
 
 ### Setup
 
-[] clone the project from this [link](https://github.com/sajjadrajaee/MagiciantCalculator).
-   example: git clone https://github.com/sajjadrajaee/MagiciantCalculator
+[] clone the project from this [link](https://github.com/sajjadrajaee/Bookstore).
+   example: git clone https://github.com/sajjadrajaee/Bookstore
 [] use **``npm init -y  ``** to initialize the npm
 [] use **``npm install ``** to install all neccerry dependencies
 [] use **``npm start ``**to start the project and see live.
