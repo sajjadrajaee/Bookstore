@@ -1,8 +1,13 @@
 import './App.css';
+import Books from './Components/Books';
+import Form from './Components/Form';
 
 function App() {
   return (
-    <div className="App">This is an app</div>
+    <>
+      <Books />
+      <Form />
+    </>
   );
 }
 

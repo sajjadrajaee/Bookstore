@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="navbar">
         <h1 className="navTitle">Bookstore CMS</h1>
         <nav className="navLinks">
-          <Link className="navItem" to="/books">BOOKS</Link>
+          <Link className="navItem" to="/">BOOKS</Link>
           {' '}
           |
           {' '}
