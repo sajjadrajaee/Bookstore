@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Catagories from './components/Catagories';
-import Header from './components/Header';
-import BookList from './components/BookList';
+import Catagories from './components/Catagories.js';
+import Header from './components/Header.js';
+import BookList from './components/BookList.js';
 
 function App() {
   return (
