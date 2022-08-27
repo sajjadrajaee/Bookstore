@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="bg-white header-container">
-    <h1 className="bg-white header">BookStore CMS</h1>
+    <h1 className="bg-white header font-weight-bold">BookStore CMS</h1>
     <nav className="bg-white nav-bar">
       <div className="bg-white nav-conatiner">
         <NavLink className="bg-white nav-link active" to="/">BOOKS</NavLink>

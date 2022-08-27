@@ -41,7 +41,7 @@ const Form = () => {
       <form className="form" onSubmit={newBook}>
         <input className="input book-title" placeholder="Book Title" value={title} onChange={changeTitle} required />
         <input className="input book-author" placeholder="Author Name" value={author} onChange={changeAuthor} required />
-        <button type="submit" className="btn btn-primary add-book">Add Book</button>
+        <button type="submit" className="btn btn-primary add-book">ADD BOOK</button>
       </form>
     </div>
   );

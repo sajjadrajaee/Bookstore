@@ -11,6 +11,10 @@
   background: none;
 }
 
+.book-card {
+  width: 90%;  
+}
+
 .completed {
   margin-top: 10%;
   margin-left: -50%;

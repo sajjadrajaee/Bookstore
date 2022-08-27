@@ -21,7 +21,7 @@ function Books({
   };
 
   return (
-    <div className="container-fluid bg-white border my-5 mx-5 p-3">
+    <div className="container-fluid bg-white border my-5 p-3 book-card">
       <div className="row bg-white">
         <div className="col-6 bg-white">
           <p className="bg-white category">{category}</p>
