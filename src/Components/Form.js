@@ -1,17 +1,14 @@
 import React from 'react';
 
-export default function Form() {
-  return (
+const Form = () => (
+  <div className="form-container">
+    <h3>Add New Book</h3>
     <form className="form">
-      <fieldset>
-        <input type="text" placeholder="Book title" />
-        <select value="0">
-          <option value="Category 1" label="Category 1" />
-          <option value="Category 2" label="Category 2" />
-        </select>
-        <button type="submit">submit</button>
-      </fieldset>
-
+      <input className="title" placeholder="Book Title" required />
+      <input className="author" placeholder="Author Name" required />
+      <button type="submit" className="add-book">Add Book</button>
     </form>
-  );
-}
+  </div>
+);
+
+export default Form;

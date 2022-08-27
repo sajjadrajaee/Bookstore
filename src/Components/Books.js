@@ -1,26 +1,12 @@
-import React from 'react';
-import BookItem from './BookItem';
-
-const Books = () => {
-  const books = [
-    {
-      id: 1,
-      title: 'The reachest man in the babylon',
-      author: 'Author 1',
-    },
-    {
-      id: 2,
-      title: 'Marketing management',
-      author: 'Keller',
-    },
-  ];
+/* eslint-disable react/prop-types */
+function Books({ title, author }) {
   return (
-    <>
-      {books.map((book) => (
-        <BookItem key={book.id} bookProps={book} />
-      ))}
-    </>
+    <div>
+      <h1>{title}</h1>
+      <p>{author}</p>
+      <button type="button">Remove</button>
+    </div>
   );
-};
+}
 
 export default Books;
