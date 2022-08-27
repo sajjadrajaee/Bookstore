@@ -1,7 +1,8 @@
+/* eslint-disable */
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
 import Catagories from './components/Catagories';
+import Header from './components/Header';
 import BookList from './components/BookList';
 
 function App() {
@@ -15,5 +16,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
